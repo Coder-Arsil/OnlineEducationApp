@@ -20,24 +20,6 @@ const Home = () => {
                 <Image source={require('../../images/edu.png')} style={{ height: 150, width: 150, marginBottom: 15 }} />
                 <Text style={{ fontSize: 15 }}>Your success is our goal !</Text>
             </View>
-
-            {/* <View style={{ alignItems: 'center', paddingVertical: 5, flexDirection: 'row', justifyContent: 'space-around' }} >
-                <View style={{ padding: 10, backgroundColor: '#7EC344', borderRadius: 50 }}>
-                    <Image source={require('../../images/screen.png')} style={{ height: 30, width: 30 }} />
-                </View>
-
-                <View style={{ padding: 10, backgroundColor: '#7EC344', borderRadius: 50 }}>
-                    <Image source={require('../../images/people.png')} style={{ height: 30, width: 30 }} />
-                </View>
-
-                <View style={{ padding: 10, backgroundColor: '#7EC344', borderRadius: 50 }}>
-                    <Image source={require('../../images/comment.png')} style={{ height: 30, width: 30 }} />
-                </View>
-
-                <View style={{ padding: 10, backgroundColor: '#7EC344', borderRadius: 50 }}>
-                    <Image source={require('../../images/cont.png')} style={{ height: 30, width: 30 }} />
-                </View>
-            </View>  */}
             <View>
                 <Menu />
             </View>
