@@ -13,6 +13,14 @@ const App = () => {
     <NavigationContainer>
       <Stack.Navigator initialRouteName='Home'>
         <Stack.Screen name="Home" component={Home} />
+
+        <Stack.Screen name='Course' component={Course} />
+
+        <Stack.Screen name='About' component={About} />
+
+        <Stack.Screen name='Contact' component={Contact} />
+
+        <Stack.Screen name='Students' component={UserData} />
       </Stack.Navigator>
     </NavigationContainer>
   )

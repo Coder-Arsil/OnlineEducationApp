@@ -1,6 +1,7 @@
 import { Image, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import { LinearGradient } from "expo-linear-gradient";
+import Menu from '../components/Menu';
 const Home = () => {
     return (
         <View style={styles.mainComponent}>
@@ -20,7 +21,7 @@ const Home = () => {
                 <Text style={{ fontSize: 15 }}>Your success is our goal !</Text>
             </View>
 
-            <View style={{ alignItems: 'center', paddingVertical: 5, flexDirection: 'row', justifyContent: 'space-around' }} >
+            {/* <View style={{ alignItems: 'center', paddingVertical: 5, flexDirection: 'row', justifyContent: 'space-around' }} >
                 <View style={{ padding: 10, backgroundColor: '#7EC344', borderRadius: 50 }}>
                     <Image source={require('../../images/screen.png')} style={{ height: 30, width: 30 }} />
                 </View>
@@ -36,6 +37,9 @@ const Home = () => {
                 <View style={{ padding: 10, backgroundColor: '#7EC344', borderRadius: 50 }}>
                     <Image source={require('../../images/cont.png')} style={{ height: 30, width: 30 }} />
                 </View>
+            </View>  */}
+            <View>
+                <Menu />
             </View>
         </View>
 
