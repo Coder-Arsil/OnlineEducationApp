@@ -13,10 +13,13 @@ const App = () => {
     <NavigationContainer>
       <Stack.Navigator initialRouteName='Home'>
         <Stack.Screen name="Home" component={Home} options={{
-          headerShown:false
+          headerShown:false,
+          statusBarColor:"#7EC344"
         }} />
 
-        <Stack.Screen name='Course' component={Course} />
+        <Stack.Screen name='Course' component={Course} options={{
+          statusBarColor:"#7EC344",
+        }} />
 
         <Stack.Screen name='About' component={About} />
 
