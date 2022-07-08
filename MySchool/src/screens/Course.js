@@ -18,7 +18,9 @@ const Course = ({ navigation }) => {
                 <Text style={styles.desctiption}>
                     {item.desctiption}
                 </Text>
-
+                <Text style={{color:'red',marginTop:14,fontSize:15}}>
+                    ( {item.course1} , {item.course2} , {item.course3} )
+                </Text>
                 <View style={styles.btnContainer}>
                     <TouchableOpacity
                         style={styles.btnStyles}
