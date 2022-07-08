@@ -13,19 +13,25 @@ const App = () => {
     <NavigationContainer>
       <Stack.Navigator initialRouteName='Home'>
         <Stack.Screen name="Home" component={Home} options={{
-          headerShown:false,
-          statusBarColor:"#7EC344"
+          headerShown: false,
+          statusBarColor: "#7EC344"
         }} />
 
         <Stack.Screen name='Course' component={Course} options={{
-          statusBarColor:"#7EC344",
+          statusBarColor: "#7EC344",
         }} />
 
-        <Stack.Screen name='About' component={About} />
+        <Stack.Screen name='About' component={About} options={{
+          statusBarColor: "#7EC344",
+        }} />
 
-        <Stack.Screen name='Contact' component={Contact} />
+        <Stack.Screen name='Contact' component={Contact} options={{
+          statusBarColor: "#7EC344",
+        }} />
 
-        <Stack.Screen name='Students' component={UserData} />
+        <Stack.Screen name='Students' component={UserData} options={{
+          statusBarColor: "#7EC344",
+        }} />
       </Stack.Navigator>
     </NavigationContainer>
   )
